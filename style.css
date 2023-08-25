@@ -1,6 +1,47 @@
 
+@media only screen and (max-width:480px){
+    #menu_click{
+        margin-top: 50px;
+        box-shadow: 3px 3px 3px grey;
+    }
+    
+}
+#logo{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    box-shadow: -5px -5px 8px #880015;
+}
+#logo:hover{
+    box-shadow: -5px -5px 8px #020202;
+    transition: 1s;
+}
+#menu_click{
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+#menu_click a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#linha_de_click{
+    margin: auto
+}
+.custom-link {
+    margin: auto;
+}
+
+.custom-image {
+    width: 380px;
+}
 #navb{
     font-weight: bold;
+
+}
+#menu_responsivo{
+    margin-right: 25px;
 }
 @keyframes pulando {
     0%, 100% {
@@ -57,6 +98,7 @@ nav a{
     animation: vibrate 1s infinite linear;
     
 }
+
 #about div.serviceBox{
     box-shadow: 0 8px 10px #757070;
    
@@ -104,12 +146,29 @@ nav a{
     text-align: center;
     
 }
+#card-group-1 span{
+    font-size: 20px;
+}
 
 .card-group-1 p{
     font-size: 15px;
     text-align: justify;
     padding: 10px 10px;
 }
+/*menu navegacao meio*/
+#nav_meio_tela{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#linha_de_click :hover{
+    background-color: #880015;
+}
+#menu_click :hover{
+    color: #ffffff;
+}
+
+
+
 
 /*tamanho imagens*/
 .cards{
@@ -230,6 +289,9 @@ nav a{
   table td, td{
     border-style: solid;
     padding: 15px 15px;
+  }
+  #tabela{
+    margin-bottom: 30px;
   }
 
  
